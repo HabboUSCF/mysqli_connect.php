@@ -54,7 +54,7 @@ if(isset($_POST['submit'])){
     }
 }
         ?>
-        <form action="http://localhost/....php" method="post">
+        <form action="" method="post">
             <b>
                 PTS PROFILE FORM
             </b>

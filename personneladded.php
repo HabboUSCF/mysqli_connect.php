@@ -33,6 +33,10 @@ if(isset($_POST['submit'])){
         require_once('../mysqli_connect.php');
         $query = "INSERT INTO sakila.pts (username, rank, motto, join_date) VALUES (?, ?, ?, NOW())";
         $stmt = mysqli_prepare($dbc, $query);
+        i Integers
+        d Doubles
+        b Blobs
+        s Everything Else
         mysqli_stmt_bind_param($stmt, "ssss", $u_name, $rank, $motto, $join_date);
         mysqli_stmt_execute($stmt);
         $affected_rows = mysqli_stmt_affected_rows($stmt);

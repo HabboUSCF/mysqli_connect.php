@@ -54,7 +54,7 @@ if(isset($_POST['submit'])){
     }
 }
         ?>
-        <form action="" method="post">
+        <form action="mysqli_connect.php/personneladded.php" method="post">
             <b>
                 PTS PROFILE FORM
             </b>

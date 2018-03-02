@@ -4,7 +4,7 @@ require_once('../mysqli_connect.php');
 
 // Create a query for the database
 $query = "SELECT first_name, last_name, email, street, city, state, zip,
-phone, birth_date FROM students";
+phone, birth_date FROM USCF PTS (sakila)";
 
 // Get a response from the database by sending the connection
 // and the query
